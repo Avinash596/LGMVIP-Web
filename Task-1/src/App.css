@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  font-size: 1.9rem;
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  color: rgb(13, 63, 97);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  width: max-content;
+  min-width: 45vw;
+  min-height: 80vh;
+  max-height: auto;
+  border-radius: 8px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+  padding-bottom: 15px;
+}
+
+
+@media screen and (max-width: 500px) {
+  .container {
+      width: 90%;
+  }
+}
+
